@@ -12,7 +12,7 @@ function App(params) {
 const [reason,setReason]=useState("");
 const add = () =>{
   console.log(userName)
-  Axios.post("https://appointment0backend.herokuapp.com//add", {
+  Axios.post("https://appointment0backend.herokuapp.com/add", {
     userName : userName,
     reason : reason
   });
@@ -61,11 +61,11 @@ const add = () =>{
       
       
       <h1 id = "text2">Book Slots</h1>
-      <a href='#'><button type="button" className="btn btn-danger" id="button1">{">"}</button></a>
-      <a href='#'> <button type="button" className="btn btn-danger" id="button2">{">"}</button></a>
-      <a href='#'><button type="button" className="btn btn-danger" id="button3">{">"}</button></a>
-      <a href='#'><button type="button" className="btn btn-danger" id="button4">{">"}</button></a>
-      <a href='#'><button type="button" className="btn btn-danger" id="button5">{">"}</button></a>
+      <a href='https://atharvabokade.github.io/appointment-info-slot-1/'><button type="button" className="btn btn-danger" id="button1">{">"}</button></a>
+      <a href='https://atharvabokade.github.io/appointment-info-slot-2/'> <button type="button" className="btn btn-danger" id="button2">{">"}</button></a>
+      <a href='https://atharvabokade.github.io/appointment-info-slot-3/'><button type="button" className="btn btn-danger" id="button3">{">"}</button></a>
+      <a href='https://atharvabokade.github.io/appointment-infoslot-4/'><button type="button" className="btn btn-danger" id="button4">{">"}</button></a>
+      <a href='https://atharvabokade.github.io/appointment-info-slot-5/'><button type="button" className="btn btn-danger" id="button5">{">"}</button></a>
         <div className = "slot1">
           <h5 id ="text1">9am to 10am</h5>
 
@@ -83,7 +83,7 @@ const add = () =>{
           <h5 id ="text1">4pm to 5pm</h5>
         </div>
         <h4 id = "text3">Check Appointment' Status</h4>
-        <a href='#'><button type="button" className="btn btn-danger" id="button6">{">"}</button></a>
+        <a href='https://atharvabokade.github.io/appointment-info-slot-status/'><button type="button" className="btn btn-danger" id="button6">{">"}</button></a>
        
       
       </div>
