@@ -1,6 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import Axios from 'axios';
+import Particles from "react-tsparticles";
+//import { loadFull } from "tsparticles";
+//import ScrollAnimation from "react-animate-on-scroll"
+import particleconfig from "./config/partcleconfig";
 
 
 
@@ -19,7 +23,8 @@ const add = () =>{
 }
     return(
       <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <Particles params={particleconfig}/>
+      <nav className="navbar navbar-expand-lg navbar-light  bg-primary">
 
   
       <div className="container-fluid">
@@ -57,6 +62,8 @@ const add = () =>{
         </div>
       </div>
       </nav>
+      <div className='background_overall'>
+      
         <div className = "Menu">
       
       
@@ -87,11 +94,13 @@ const add = () =>{
        
       
       </div>
+      </div>
       <div className="footer_custom">
         <h6 id="footer_text">This website is created for 
         official purpose only
         </h6>
       </div>
+      
       </>
     );
 }
